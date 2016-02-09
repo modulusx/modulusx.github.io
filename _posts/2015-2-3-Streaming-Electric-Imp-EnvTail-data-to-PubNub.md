@@ -3,18 +3,23 @@ layout: post
 title: Is it cold in here, or is it just me?
 ---
 
-What do you do when you move into an apartment with no heat? Grab an Electric Imp and start logging the all the environmental data you can of course!
+What do you do when you move into an apartment with no heat? Grab an [Electric Imp](https://electricimp.com/) and start logging the all the environmental data you can of course!
 
-The Electric Imp is a pretty handly little device that happens to do a few things I really like in an IoT device.
+### The Goal
+This started as a simple one. I just wanted to log the environmental data to InfluxDB and graph it with Grafana. Then I realized I can use Kapacitor to trigger events off of readings in InfluxDB. It might be overkill, and one of my old coworkers used to accuse me of often using a Howitzer to kill a Horse Fly, but I doubt that he was ever bit by one.
+
+## Electric Imp Features
 * OTA programming!
-* A super-simple breakout board for power with a header for sensors
-* It costs $30, that's pretty close to free
+* A super-simple breakout board with a GPIO header supporting available [Tails](https://electricimp.com/docs/tails/)
+* Priced at only $30 with the [EnvTail](https://electricimp.com/docs/tails/env/)
 
-One of my old coworkers used to accuse me of often using a Howitzer to kill a Horse Fly but I don't think he was ever bit by one.
-
-## The goal
-This started as a simple one. I just wanted to log the environmental data to InfluxDB and graph it with Grafana.
-
-### The components
+### Hardware 
 * An Electric Imp running [this software](https://github.com/modulusx/electric-imp-envtail-to-pubnub)
-* An instance of InfluxDB, Grafana, and the hub to bind it all together
+
+### Software
+* InfluxDB
+* Grafana
+* A hub to bind it together
+
+### The results
+![_config.yml]({{ site.baseurl }}/images/imp01-grafana.png)
