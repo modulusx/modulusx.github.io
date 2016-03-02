@@ -22,4 +22,4 @@ This started as a simple one. I just wanted to log the environmental data to Inf
 * A hub to bind it together
 
 ### The results
-![_config.yml]({{ site.baseurl }}/images/imp01-grafana.png)
+![_config.yml]({{ site.baseurl }}/images/2016-02-03-imp01-grafana.png)
