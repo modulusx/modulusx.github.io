@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Lights On!
+date: 2016-03-02 00:00:00 Z
+layout: post
 ---
 
 I thought having network controlled lights would be amazing, and it is, but sometimes you just need a light switch.

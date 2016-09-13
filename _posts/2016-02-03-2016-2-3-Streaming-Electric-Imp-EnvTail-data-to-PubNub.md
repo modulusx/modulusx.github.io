@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Is it cold in here, or is it just me?
+date: 2016-02-03 00:00:00 Z
+layout: post
 ---
 
 What do you do when you move into an apartment with no heat? Grab an [Electric Imp](https://electricimp.com/) and start logging the all the environmental data you can of course!

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Authoring Github Pages articles locally
+date: 2016-02-09 00:00:00 Z
+layout: post
 ---
 
 ### Less waiting, more writing
