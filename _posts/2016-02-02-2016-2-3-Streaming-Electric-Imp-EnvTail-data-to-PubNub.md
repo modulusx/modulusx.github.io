@@ -1,6 +1,6 @@
 ---
 title: Is it cold in here, or is it just me?
-date: 2016-02-03 00:00:00 Z
+date: 2016-02-02 16:00:00 -08:00
 layout: post
 ---
 

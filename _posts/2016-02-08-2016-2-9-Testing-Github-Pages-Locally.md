@@ -1,6 +1,6 @@
 ---
 title: Authoring Github Pages articles locally
-date: 2016-02-09 00:00:00 Z
+date: 2016-02-08 16:00:00 -08:00
 layout: post
 ---
 

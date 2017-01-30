@@ -1,6 +1,6 @@
 ---
 title: Lights On!
-date: 2016-03-02 00:00:00 Z
+date: 2016-03-01 16:00:00 -08:00
 layout: post
 ---
 
